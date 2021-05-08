@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO-DO APP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+ <div class="main">
+
+    
+
+    <div class="heading">
+        <h2>TO-DO APP</h2>
+    </div>
+    <div class="div1">
+        <input class="input1"  placeholder="What are Today's tasks ?" type=" text" id="input1" onblur="this.style.backgroundColor='white'" onfocus="this.style.backgroundColor='orange'">
+        <button class="addBtn" onclick="addTodo()" id="btn1">ADD</button>
+        <button class="delAll" id="btn2" onclick="delAll()">DELETE ALL</button>
+    </div>
+    <div class="div2">
+         <ul id="ulList" >
+
+         </ul>
+        
+    </div>
+   
+
+
+   </div>
+ 
+
+
+
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
