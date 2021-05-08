@@ -1,10 +1,12 @@
+//Welcome Here , I have created a To-Do app in which you can save your daily tasks.
+// This is the Java Script Code for making an attractive To-Do App
 
-var ulList=document.getElementById("ulList");
+var ulList=document.getElementById("ulList");   //I have created a list inside unorderList
 
 //var innerDiv=document.getElementById("inner");
 
 
-function addTodo(){
+function addTodo(){                             //This is Funtion is for Add button
 
     var input=document.getElementById("input1");
     var li=document.createElement("li");
@@ -60,7 +62,7 @@ function deleteList(e){
     e.parentNode.remove();
    
 }
-function delAll(){
+function delAll(){                    //This is Funtion is for DeleteAll button
     ulList.innerHTML=" ";
 }
 function editList(e){
